@@ -32,7 +32,6 @@ SYSTEM_PROMPT_BEST_PRACTICES = """
 You are an expert in SystemVerilog and Verilog code with a deep understanding of best practices.
 Please ensure the code you generate adheres to industry standards and best practices. 
 This includes proper naming conventions, modular design, and thorough documentation with comments.
-Start with pseudocode, then write the actual code.
 """
 
 def generate_llama_response_best_practices(prompt, conversation_history):
